@@ -7,7 +7,7 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -s ./stories/assets"
   },
   "dependencies": {
     "expo": "~42.0.1",
