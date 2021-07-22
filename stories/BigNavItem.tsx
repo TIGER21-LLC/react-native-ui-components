@@ -10,7 +10,12 @@ interface BigNavItemProps {
 export const BigNavItem = ({ icon, label, ...props }: BigNavItemProps) => {
   return (
     <TouchableOpacity style={styles.navItem}>
-      <MaterialCommunityIcons name={icon} size={80} color="white" />
+      <MaterialCommunityIcons
+        name={icon}
+        size={80}
+        color="white"
+        style={styles.navItemIcon}
+      />
       <Text style={styles.text}>{label}</Text>
     </TouchableOpacity>
     // TODO add configurable action/navigation on item press
@@ -41,6 +46,7 @@ const styles = StyleSheet.create({
     // alignContent: "center",
     // flex: 1,
     // alignSelf: "center",
+    // padding: 10,
   },
 });
 
