@@ -114,106 +114,34 @@ import StackAlt from "./assets/stackalt.svg";
   
 `}</style>
 
-# Welcome to Storybook (test 111)
+# Tiger21's React Native UI Components
 
-Storybook helps you build UI components in isolation from your app's business logic, data, and context.
-That makes it easy to develop hard-to-reach states. Save these UI states as **stories** to revisit during development, testing, or QA.
+- This is hosted version of a [**storybook**](https://storybook.js.org/). Its code can be found [**on github here**](https://github.com/TIGER21-LLC/react-native-ui-components).
+- Storybook helps developers code reusable UI components in isolation from an app's business logic, context, and API backend.
+  - Not exactly, but you can think of this as pre-fabricated construction of a house's walls, windows, furniture, etcetera. These are not models, they are the actual stuff, that will be later on assembled on-site to build the whole thing.
+  - In the real world houses constructed with pre-fabricated components is probably less desirable. But in the digital world of react-native it leads to better quality product, built faster, more maintainable, testable, etcetera, and is more desirable for the reasons listed below.
+- Storybook also creates a browseable catalog of all the UI components.
+  - This makes it easy to develop hard-to-reach states of an app.
+  - Automated visual tests can run on each UI component separately and their collection together.
+  - Humans can browse every UI component (aka "story") by navigating to them in the sidebar.
+- Storybook recommends building UIs with a [**component-driven**](https://componentdriven.org) process starting with atomic components and ending with pages.
 
-Browse example stories now by navigating to them in the sidebar.
-View their code in the `src/stories` directory to learn how they work.
-We recommend building UIs with a [**component-driven**](https://componentdriven.org) process starting with atomic components and ending with pages.
+## Examples
 
-<div className="subheading">Configure</div>
+- United Nations World Food Program
+  - https://uikit.wfp.org/docs/index.html?path=/docs/templates-login--regular
+- Guardian
+  - https://5dfcbf3012392c0020e7140b-gmgigeoguh.chromatic.com/?path=/story/components-readerrevenuelinks--header
+  - https://5dfcbf3012392c0020e7140b-gmgigeoguh.chromatic.com/?path=/story/layouts-standard--photo-essay-story
+- Gitlab
+  - https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/charts-heatmap--default
+- Gov UK
+  - https://govuk-react.github.io/govuk-react/?path=/story/example-application--example-application
+- BBC
+  - https://bbc.github.io/psammead/?path=/story/components-brand--with-brand-link
+  - https://bbc.github.io/psammead/?path=/story/components-bulletin--tv-bulletin
 
-<div className="link-list">
-  <a
-    className="link-item"
-    href="https://storybook.js.org/docs/react/addons/addon-types"
-    target="_blank"
-  >
-    <img src={Plugin} alt="plugin" />
-    <span>
-      <strong>Presets for popular tools</strong>
-      Easy setup for TypeScript, SCSS and more.
-    </span>
-  </a>
-  <a
-    className="link-item"
-    href="https://storybook.js.org/docs/react/configure/webpack"
-    target="_blank"
-  >
-    <img src={StackAlt} alt="Build" />
-    <span>
-      <strong>Build configuration</strong>
-      How to customize webpack and Babel
-    </span>
-  </a>
-  <a
-    className="link-item"
-    href="https://storybook.js.org/docs/react/configure/styling-and-css"
-    target="_blank"
-  >
-    <img src={Colors} alt="colors" />
-    <span>
-      <strong>Styling</strong>
-      How to load and configure CSS libraries
-    </span>
-  </a>
-  <a
-    className="link-item"
-    href="https://storybook.js.org/docs/react/get-started/setup#configure-storybook-for-your-stack"
-    target="_blank"
-  >
-    <img src={Flow} alt="flow" />
-    <span>
-      <strong>Data</strong>
-      Providers and mocking for data libraries
-    </span>
-  </a>
-</div>
+## Other Advantages
 
-<div className="subheading">Learn</div>
-
-<div className="link-list">
-  <a className="link-item" href="https://storybook.js.org/docs" target="_blank">
-    <img src={Repo} alt="repo" />
-    <span>
-      <strong>Storybook documentation</strong>
-      Configure, customize, and extend
-    </span>
-  </a>
-  <a
-    className="link-item"
-    href="https://storybook.js.org/tutorials/"
-    target="_blank"
-  >
-    <img src={Direction} alt="direction" />
-    <span>
-      <strong>In-depth guides</strong>
-      Best practices from leading teams
-    </span>
-  </a>
-  <a
-    className="link-item"
-    href="https://github.com/storybookjs/storybook"
-    target="_blank"
-  >
-    <img src={Code} alt="code" />
-    <span>
-      <strong>GitHub project</strong>
-      View the source and add issues
-    </span>
-  </a>
-  <a className="link-item" href="https://discord.gg/storybook" target="_blank">
-    <img src={Comments} alt="comments" />
-    <span>
-      <strong>Discord chat</strong>
-      Chat with maintainers and the community
-    </span>
-  </a>
-</div>
-
-<div className="tip-wrapper">
-  <span className="tip">Tip</span>Edit the Markdown in{" "}
-  <code>src/stories/Introduction.stories.mdx</code>
-</div>
+- Automated UI regression tests
+- 100% Accessibility
