@@ -1,6 +1,6 @@
 .navitem {
-  width: 160px;
-  height: 158px;
+  min-width: 160px;
+  min-height: 158px;
   background: rgb(236, 236, 236);
   border: 1px solid rgb(201, 201, 201);
   border-radius: 4px;
