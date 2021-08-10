@@ -1,0 +1,39 @@
+.navitem {
+  width: 160px;
+  height: 158px;
+  background: rgb(236, 236, 236);
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navitem-content {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.action {
+  font-weight: bold;
+  margin: 0px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.action-details {
+  margin: 0px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
