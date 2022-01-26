@@ -7,7 +7,8 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -s ./stories/assets"
+    "build-storybook": "build-storybook -s ./stories/assets",
+    "chromatic": "npx chromatic --project-token=0b5d7944daec"
   },
   "dependencies": {
     "expo": "~42.0.1",
@@ -27,6 +28,7 @@
     "@types/react": "~16.9.35",
     "@types/react-native": "~0.63.2",
     "babel-loader": "^8.2.2",
+    "chromatic": "^6.4.1",
     "typescript": "~4.0.0"
   },
   "private": true
